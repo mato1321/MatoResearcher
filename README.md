@@ -82,16 +82,14 @@ TAVILY_API_KEY=你的_Tavily_API_金鑰
 # 文件路徑（存放本地文件）
 DOC_PATH=./my-docs
 
-# Ollama 設定
-OLLAMA_BASE_URL=http://127.0.0.1:11434/
-
 # 範例: 使用 Ollama 的 Qwen2.5 7B 模型
 FAST_LLM=ollama:qwen2.5:7b
 SMART_LLM=ollama:qwen2.5:7b
 STRATEGIC_LLM=ollama:qwen2.5:7b
 
-# 使用 Ollama 的嵌入模型
+# Ollama 設定
 EMBEDDING=ollama:nomic-embed-text
+OLLAMA_BASE_URL=http://127.0.0.1:11434/
 
 # 如果需要指定 API 網址（選填）
 # NEXT_PUBLIC_GPTR_API_URL=http://0.0.0.0:8000
