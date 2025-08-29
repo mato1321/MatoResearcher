@@ -47,7 +47,7 @@
 開啟命令提示字元或 PowerShell，執行以下指令：
 
 ```bash
-# 下載 Qwen2.5 7B 模型（用於文字生成）
+# 範例: 下載 Qwen2.5 7B 模型（用於文字生成）
 ollama pull qwen2.5:7b
 
 # 下載 Nomic Embed Text 模型（用於文字嵌入）
@@ -85,7 +85,7 @@ DOC_PATH=./my-docs
 # Ollama 設定
 OLLAMA_BASE_URL=http://127.0.0.1:11434/
 
-# 使用 Ollama 的 Qwen2.5 7B 模型
+# 範例: 使用 Ollama 的 Qwen2.5 7B 模型
 FAST_LLM=ollama:qwen2.5:7b
 SMART_LLM=ollama:qwen2.5:7b
 STRATEGIC_LLM=ollama:qwen2.5:7b
@@ -100,9 +100,8 @@ EMBEDDING=ollama:nomic-embed-text
 #### 獲取 Tavily API 金鑰
 
 1. 前往 [Tavily 官網](https://tavily.com/)
-2. 點擊 "Sign Up" 註冊帳號
-3. 登入後前往 [API Keys 頁面](https://app.tavily.com/home)
-4. 複製你的 API 金鑰
+2. 登入後前往 [API Keys 頁面](https://app.tavily.com/home)
+3. 複製你的 API 金鑰
 
 ## 啟動 MatoResearcher
 
@@ -131,7 +130,7 @@ uvicorn main:app --reload
    ```
    INFO:     Uvicorn running on http://127.0.0.1:8000
    ```
-   在網址上ctrl+左鍵導入頁面
+   在網址上ctrl+滑鼠左鍵導入頁面
 
 2. 在網頁介面中：
    - 輸入你的研究主題
